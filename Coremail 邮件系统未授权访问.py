@@ -37,7 +37,7 @@ def poc(target):
 def main():
     banner()
     url_list = []
-    parse = argparse.ArgumentParser(description="CVE-2023-27372 SPIP CMS远程代码执行漏洞")
+    parse = argparse.ArgumentParser(description="Coremail 邮件系统未授权访问")
 
     parse.add_argument("-u", "--url", dest="url", type=str, help="Please enter url")
     parse.add_argument("-f", "--file", dest="file", type=str, help="Please enter file")
